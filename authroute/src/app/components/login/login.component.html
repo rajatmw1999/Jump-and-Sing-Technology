@@ -1,0 +1,8 @@
+<div class="login-wrapper">
+    <h1>Login</h1>
+    <input (input)="handleUsername($event)" placeholder="Enter Username" type="text" required />
+    <br /><br />
+    <input (input)="handlePassword($event)" placeholder="Enter Password" type="password" required />
+    <br /><br />
+    <button (click)="loginUser()"> Login </button>
+</div>
