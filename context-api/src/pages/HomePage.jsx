@@ -11,10 +11,10 @@ const HomePage = () => {
         <div className="container-fluid">
             <div className="rajat-menu-wrapper">
                 {items.map(item => 
-                    <>
+                    <div key={item.title}>
                         <h1 className="rajat-menu-category-heading"><span>{item.title}</span></h1>
                         {item.items.map(foodItem => <FoodCard key={foodItem.name} data={foodItem}/>)}
-                    </>)}
+                    </div>)}
             </div>
         </div>
     )
