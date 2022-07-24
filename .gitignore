@@ -1,3 +1,4 @@
 node_modules/
 routing-app/
-
+env/
+my-project-env/
